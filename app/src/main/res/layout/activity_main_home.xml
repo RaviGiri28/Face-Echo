@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/faceBoxImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/rectangular_box"
+        app:layout_constraintBottom_toBottomOf="@id/textureView"
+        app:layout_constraintEnd_toEndOf="@id/textureView"
+        app:layout_constraintStart_toStartOf="@id/textureView"
+        app:layout_constraintTop_toTopOf="@id/textureView" />
+
+    <ImageButton
+        android:id="@+id/cameraSwitchButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:src="@drawable/baseline_cameraswitch_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957" />
+
+    <ImageButton
+        android:id="@+id/captureButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:src="@drawable/baseline_camera_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

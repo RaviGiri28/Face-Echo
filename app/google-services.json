@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "996064436483",
+    "project_id": "face-echo",
+    "storage_bucket": "face-echo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996064436483:android:4f17dd076e5c99360ec936",
+        "android_client_info": {
+          "package_name": "com.example.faceecho"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAhurcXtEUMBEK0NAfQjGgfk7tcjbIqX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
