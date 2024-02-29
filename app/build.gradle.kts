@@ -40,6 +40,7 @@ dependencies {
     androidTestImplementation ("androidx.test.ext:junit:1.1.5")
     androidTestImplementation ("androidx.test.espresso:espresso-core:3.5.1")
     implementation ("com.google.android.gms:play-services-vision:20.1.3")
+    implementation ("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation ("com.google.firebase:firebase-ml-vision:24.1.0")
         implementation ("androidx.camera:camera-core:1.4.0-alpha02")
         implementation ("androidx.camera:camera-camera2:1.4.0-alpha02")
